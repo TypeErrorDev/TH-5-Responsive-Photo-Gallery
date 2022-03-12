@@ -1,3 +1,5 @@
-const baguetteBox = require('baguettebox.js');
-baguetteBox.run('.gallery');
+// Declare Variables
+const search = new Filter("search", "data-caption");
 
+// Calls the baguetteBox Gallery functions
+baguetteBox.run(".gallery");
