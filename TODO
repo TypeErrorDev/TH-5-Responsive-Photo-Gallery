@@ -6,7 +6,7 @@ Design
         ☐ Thumbnail gallery should have 4 columns when screen width is at 1024px.
 
     Exceeds Expectations:
-        ☐ Make the CSS Grid thumbnal gallery responsive without utilizing media queries
+        ☐ Make the CSS Grid thumbnail gallery responsive without utilizing media queries
 
 Lightbox Functionality
     Meets Expectations:
