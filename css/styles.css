@@ -36,14 +36,15 @@ img {
   justify-content: center;
 }
 .gallery {
-  /* background-color: black; */
   display: grid;
   width: auto;
   height: 100%;
-  grid-template: 1fr / repeat(4, 180px);
+  grid-template: 1fr / repeat(4, 1fr);
   gap: 25px;
-  margin-right: 100px;
 }
+  
+
+
 /* max-width: 900px;
   position: absolute;
   display: grid;
