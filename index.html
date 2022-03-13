@@ -4,20 +4,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="photos/Camera_Favicon_2.png" type="image/x-icon">
     <link rel="stylesheet" href="/css/styles.css" />
     <link rel="stylesheet" href="css/baguetteBox.min.css" />
-    <title>Document</title>
+    <script src="js/baguetteBox.min.js"></script>
+    <script src="js/searchFilter.js"></script>
+    <script src="js/app.js"></script>
+
+    <title>TypeErrorDev's Photo Gallery</title>
   </head>
   <body>
     <header>
       <!-- search bar -->
       <nav class="nav-search">
-        <input
-          type="search"
-          name="search"
-          id="search"
-          placeholder="Search"
-        />
+        <input type="search" name="search" id="search" placeholder="Search" />
       </nav>
     </header>
 
@@ -134,9 +134,6 @@
       </div>
     </main>
 
-    <script src="js/baguetteBox.min.js"></script>
-    <script src="js/searchFilter.js"></script>
-    <script src="js/app.js"></script>
     <script>
       window.addEventListener("load", function () {
         baguetteBox.run(".gallery");
