@@ -8,19 +8,19 @@ body {
 }
 
 /* Nav Search Styles */
-.nav-search {
+.search {
   width: 560px;
   height: 40px;
   margin: 20px auto 20px auto;
 }
-.nav-search input {
+.search input {
   width: 560px;
   height: 40px;
   border: 2px solid rgb(208, 205, 205);
   border-radius: 4px;
   padding-left: 5px;
 }
-.nav-search input:focus {
+.search input:focus {
   background-color: rgb(208, 225, 240);
 }
 
@@ -33,13 +33,14 @@ img {
 
 .gallery {
   text-align: center;
-  width: 95%;
+  width: 80%;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 300px);
+  grid-template-columns: repeat(auto-fill, 280px);
   grid-template-rows: repeat(auto-fill, 1fr);
   grid-gap: 1.5rem 1.5rem;
   margin-right: auto;
   margin-left: 8%;
+  outline: 1px solid black;
 }
 
 
