@@ -42,6 +42,9 @@ img {
   margin-left: auto; 
 }
 
+.hidden{
+  display: none;
+}
 
 /* max-width: 900px;
   position: absolute;

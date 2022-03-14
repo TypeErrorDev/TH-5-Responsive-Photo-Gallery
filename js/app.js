@@ -1,18 +1,22 @@
 const searchBar = document.getElementById("search").value;
+console.log(searchBar);
 const anchor = document.querySelectorAll("a");
-
+console.log(anchor);
 // document.addEventListener("keyup", logKey);
 
 function logKey(key) {
-  anchor.forEach((e, i) => {
-    let anchorAttr = e.getAttribute("data-caption");
-    if (anchorAttr.includes(searchBar)) {
-      anchor[i].style.display = "block";
-        console.log(anchor[i]);
+//   anchor.forEach((e, i) => {
+for (let i = 0; i < anchor.length; i++) { 
+let anchorAttr = anchor[i].getAttribute("data-caption");
+    if (anchorAttr[i].includes(searchBar)) {
+      anchor[i].classList.remove("hidden")
+        
     } else {
-      anchor[i].style.display = "none";
+      anchor[i].classList.add("hidden");
+      
     }
-  });
+  };
+  console.log( searchBar);
 }
 
 
