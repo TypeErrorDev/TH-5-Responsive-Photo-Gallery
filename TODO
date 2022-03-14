@@ -25,3 +25,21 @@ Content Filtering
     
     Exceeds Expectations
         ☐ Project uses original JavaScript code to implement search box functionality instead of a plugin. ALL of the following features are functioning: As the user types into the search box, only photos that match the caption text appear. Case insensitivity has been added so searches will ignore letter case.
+
+        
+
+
+
+
+
+
+
+        grab the input value
+
+select all anchor elements
+loop over each anchor element
+  grab the data-caption attribute text off of the anchor element
+  check if the caption contains the input value
+    set the display to block
+  else
+    set the display to none
