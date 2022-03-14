@@ -37,10 +37,9 @@ img {
   display: grid;
   grid-template-columns: repeat(auto-fill, 280px);
   grid-template-rows: repeat(auto-fill, 1fr);
-  grid-gap: 1.5rem 1.5rem;
+  gap: 1.5rem 1.5rem;
   margin-right: auto;
-  margin-left: 8%;
-  outline: 1px solid black;
+  margin-left: 8%; 
 }
 
 
