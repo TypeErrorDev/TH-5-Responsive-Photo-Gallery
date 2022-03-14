@@ -1,21 +1,19 @@
-const searchBar = document.getElementById('search').value;
+const searchBar = document.getElementById("search").value;
 const anchor = document.querySelectorAll("a");
 
+// document.addEventListener("keyup", logKey);
 
-anchor.forEach( (e, i) =>{
-        let anchorAttr = e.getAttribute("data-caption");
-        if (anchorAttr.includes(searchBar)) {
-           console.log(anchorAttr[i]);
-        } else {
-            anchorAttr[i].style.display = "none";
-        }
-    });
-
-
-
-
-
-
+function logKey(key) {
+  anchor.forEach((e, i) => {
+    let anchorAttr = e.getAttribute("data-caption");
+    if (anchorAttr.includes(searchBar)) {
+      anchor[i].style.display = "block";
+        console.log(anchor[i]);
+    } else {
+      anchor[i].style.display = "none";
+    }
+  });
+}
 
 
 
@@ -31,16 +29,10 @@ anchor.forEach( (e, i) =>{
 
 
 
-
-
-
-
-
+// const search = document.getElementById("search");
 
 // // Declare Variables
 // const search = new Filter("search", "data-caption");
-
-
 
 // // Set Arrays for photo Title
 // var captions = [
