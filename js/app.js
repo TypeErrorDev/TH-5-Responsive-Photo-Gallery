@@ -4,8 +4,9 @@ const searchBar = document.getElementById("search").value;
 // take the above value, and force lowercase
 input = searchBar.toLowerCase();
 
-// set const to select all the "a" elements
+// set const to select all the anchor elements
 const anchor = document.querySelectorAll("a");
+
 
 function handleSearch(event) {
   const currentValue = event.target.value
