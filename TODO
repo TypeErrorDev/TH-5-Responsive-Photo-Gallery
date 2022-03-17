@@ -21,7 +21,7 @@ Content Filtering
     Meets Expectations:
         ✔ Successfully implements the included searchFilter.js plugin for the search box functionality and ALL of the following features are functioning: @done(22-03-12 23:34)
             ✔ As the user types into the search box, only photos that match the caption text appear. @done(22-03-12 23:34)
-            ✔ Case insensitivity has been added so searches will ignore letter case. @done(22-03-12 23:34)
+            ☐ Case insensitivity has been added so searches will ignore letter case.
     
     Exceeds Expectations
         ✔ Project uses original JavaScript code to implement search box functionality instead of a plugin. ALL of the following features are functioning: As the user types into the search box, only photos that match the caption text appear. Case insensitivity has been added so searches will ignore letter case. @done(22-03-16 22:50)
